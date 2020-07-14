@@ -35,13 +35,13 @@
                 
                 <li class="active"><a href="https://pawroman.github.io/zola-theme-terminimal">blog</a></li>
             
-                <li><a href="https://pawroman.github.io/zola-theme-terminimal&#x2F;tags">tags</a></li>
+                <li><a href="https://pawroman.github.io/zola-theme-terminimal/tags">tags</a></li>
             
-                <li><a href="https://pawroman.github.io/zola-theme-terminimal&#x2F;archive">archive</a></li>
+                <li><a href="https://pawroman.github.io/zola-theme-terminimal/archive">archive</a></li>
             
-                <li><a href="https://pawroman.github.io/zola-theme-terminimal&#x2F;about">about me</a></li>
+                <li><a href="https://pawroman.github.io/zola-theme-terminimal/about">about me</a></li>
             
-                <li><a href="https:&#x2F;&#x2F;github.com&#x2F;pawroman&#x2F;zola-theme-terminimal" target="_blank" rel="noopener noreferrer">github</a></li>
+                <li><a href="https://github.com/pawroman/zola-theme-terminimal" target="_blank" rel="noopener noreferrer">github</a></li>
             </ul>
         </nav>
     
@@ -74,21 +74,21 @@
             <p>Welcome to Terminimal! This is a theme showcase post.</p>
 <p>Code block (using &quot;boron&quot; theme):</p>
 <pre style="background-color:#151515;">
-<span style="color:#888888;">#!/usr/bin/python3
-</span><span style="color:#e8e8d3;">
+<code><span style="color:#888888;">#!/usr/bin/python3
+
 </span><span style="color:#8fbfdc;">class </span><span style="color:#ffb964;">HelloPrinter</span><span style="color:#e8e8d3;">:
-</span><span style="color:#e8e8d3;">    </span><span style="color:#8fbfdc;">def </span><span style="color:#fad07a;">__init__</span><span style="color:#e8e8d3;">(</span><span style="color:#ffb964;">self</span><span style="color:#e8e8d3;">, </span><span style="color:#ffb964;">thing</span><span style="color:#e8e8d3;">):
-</span><span style="color:#e8e8d3;">        </span><span style="color:#ffb964;">self</span><span style="color:#e8e8d3;">.thing = thing
-</span><span style="color:#e8e8d3;">        </span><span style="color:#e8e8d3;">
-</span><span style="color:#e8e8d3;">    </span><span style="color:#8fbfdc;">def </span><span style="color:#fad07a;">__call__</span><span style="color:#e8e8d3;">(</span><span style="color:#ffb964;">self</span><span style="color:#e8e8d3;">):
-</span><span style="color:#e8e8d3;">        </span><span style="color:#ffb964;">print</span><span style="color:#e8e8d3;">(</span><span style="color:#8fbfdc;">f</span><span style="color:#556633;">&quot;</span><span style="color:#99ad6a;">Hello, </span><span style="color:#e8e8d3;">{</span><span style="color:#ffb964;">self</span><span style="color:#e8e8d3;">.thing}</span><span style="color:#99ad6a;">!</span><span style="color:#556633;">&quot;</span><span style="color:#e8e8d3;">)
-</span><span style="color:#e8e8d3;">
-</span><span style="color:#e8e8d3;">
-</span><span style="color:#e8e8d3;">printer = </span><span style="color:#ffb964;">HelloPrinter</span><span style="color:#e8e8d3;">(</span><span style="color:#556633;">&quot;</span><span style="color:#99ad6a;">World</span><span style="color:#556633;">&quot;</span><span style="color:#e8e8d3;">)
+    </span><span style="color:#8fbfdc;">def </span><span style="color:#fad07a;">__init__</span><span style="color:#e8e8d3;">(</span><span style="color:#ffb964;">self</span><span style="color:#e8e8d3;">, </span><span style="color:#ffb964;">thing</span><span style="color:#e8e8d3;">):
+        </span><span style="color:#ffb964;">self</span><span style="color:#e8e8d3;">.thing = thing
+        
+    </span><span style="color:#8fbfdc;">def </span><span style="color:#fad07a;">__call__</span><span style="color:#e8e8d3;">(</span><span style="color:#ffb964;">self</span><span style="color:#e8e8d3;">):
+        </span><span style="color:#ffb964;">print</span><span style="color:#e8e8d3;">(</span><span style="color:#8fbfdc;">f</span><span style="color:#556633;">&quot;</span><span style="color:#99ad6a;">Hello, </span><span style="color:#e8e8d3;">{</span><span style="color:#ffb964;">self</span><span style="color:#e8e8d3;">.thing}</span><span style="color:#99ad6a;">!</span><span style="color:#556633;">&quot;</span><span style="color:#e8e8d3;">)
+
+
+printer = </span><span style="color:#ffb964;">HelloPrinter</span><span style="color:#e8e8d3;">(</span><span style="color:#556633;">&quot;</span><span style="color:#99ad6a;">World</span><span style="color:#556633;">&quot;</span><span style="color:#e8e8d3;">)
 </span><span style="color:#ffb964;">printer</span><span style="color:#e8e8d3;">()
-</span><span style="color:#e8e8d3;">
+
 </span><span style="color:#888888;"># prints: Hello, World!
-</span></pre>
+</span></code></pre>
 <p>Inline code: <code>print(&quot;Hello world!&quot;)</code>.</p>
 <p>Basic typography:</p>
 <p><em>Italic text</em>.  <strong>Bold text</strong>. <em><strong>Italic bold</strong></em>. Link: <a href="https://pawroman.github.io/zola-theme-terminimal/terminimal-theme/#">click me</a></p>
@@ -116,28 +116,27 @@ In our lab, theory and practice are combined: nothing works and no one knows why
 <p>Horizontal line:</p>
 <hr />
 <p>This is where the post summary ends.</p>
-<p><a name="continue-reading"></a></p>
+<span id="continue-reading"></span>
 <p>The second part follows here.</p>
 <h2 id="shortcodes">Shortcodes</h2>
 <p><code>figure</code> shortcode:</p>
 <pre style="background-color:#151515;">
-<span style="color:#e8e8d3;">figure(src=&quot;http://rustacean.net/assets/rustacean-flat-gesture.png&quot;,
-</span><span style="color:#e8e8d3;">       </span><span style="color:#e8e8d3;">style=&quot;width: 25%;&quot;,
-</span><span style="color:#e8e8d3;">       </span><span style="color:#e8e8d3;">position=&quot;center&quot;
-</span><span style="color:#e8e8d3;">       </span><span style="color:#e8e8d3;">caption_position=&quot;left&quot;,
-</span><span style="color:#e8e8d3;">       </span><span style="color:#e8e8d3;">caption=&quot;Ferris, the (unofficial) Rust mascot&quot;
-</span><span style="color:#e8e8d3;">       </span><span style="color:#e8e8d3;">caption_style=&quot;font-weight: bold; font-style: italic;&quot;)
-</span></pre>  <figure class="center" >
+<code><span style="color:#e8e8d3;">figure(src=&quot;http://rustacean.net/assets/rustacean-flat-gesture.png&quot;,
+       style=&quot;width: 25%;&quot;,
+       position=&quot;center&quot;
+       caption_position=&quot;left&quot;,
+       caption=&quot;Ferris, the (unofficial) Rust mascot&quot;
+       caption_style=&quot;font-weight: bold; font-style: italic;&quot;)
+</span></code></pre><figure class="center" >
     <img src="http://rustacean.net/assets/rustacean-flat-gesture.png" style="width: 25%;" />
       <figcaption class="left" style="font-weight: bold; font-style: italic;">Ferris, the (unofficial) Rust mascot</figcaption>
   </figure>
 <hr />
 <p><code>image</code> shortcode:</p>
 <pre style="background-color:#151515;">
-<span style="color:#e8e8d3;">image(src=&quot;https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg&quot;,
-</span><span style="color:#e8e8d3;">      </span><span style="color:#e8e8d3;">position=&quot;left&quot;)
-</span></pre>
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" class="left" /></p>
+<code><span style="color:#e8e8d3;">image(src=&quot;https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg&quot;,
+      position=&quot;left&quot;)
+</span></code></pre><img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" class="left" />
 
         </div>
 
@@ -167,7 +166,7 @@ In our lab, theory and practice are combined: nothing works and no one knows why
         <div class="footer__inner">
                 <div class="copyright">
                         <span>© 
-    2019
+    2020
  Powered by <a href="https://www.getzola.org/">Zola</a></span>
                     <span class="copyright-theme">
                         <span class="copyright-theme-sep">:: </span>

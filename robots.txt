@@ -1,1 +1,2 @@
 User-agent: *
+Sitemap: https://pawroman.github.io/zola-theme-terminimal/sitemap.xml
